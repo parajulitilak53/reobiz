@@ -1,3 +1,4 @@
+Configuration and Setup
 ### Prerequisites
 1. **Node.js and npm**: Ensure you have Node.js and npm installed. Download from [nodejs.org](https://nodejs.org/).
 2. **Git**: Ensure you have Git installed. Download from [git-scm.com](https://git-scm.com/).
