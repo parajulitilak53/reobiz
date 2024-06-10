@@ -1,0 +1,50 @@
+.toggle_menu {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  /* padding: 4px; */
+  background: transparent;
+  overflow-x: hidden;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 3px;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.dot1 {
+  background-color: rgb(208, 208, 208);
+
+}
+
+.dot2 {
+  background-color: #07999a;
+
+}
+
+.dot1-black {
+  background-color: rgb(30, 25, 25);
+}
+
+.toggle_menu-light {
+  background-color: #fafafa;
+}
+
+@media (max-width: 1024px) {
+  .dot1-black {
+    background-color: rgb(30, 25, 25);
+  }
+
+  .toggle_menu-light {
+    background-color: #fafafa;
+    /* padding: 4px; */
+  }
+}

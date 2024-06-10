@@ -1,0 +1,16 @@
+.rs-btn {
+  text-align: center;
+}
+
+.rs-btn a {
+  padding: 19px 30px 17px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #fff;
+  background-color: #058283;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 5px 5px 5px 5px;
+  text-transform: uppercase;
+}

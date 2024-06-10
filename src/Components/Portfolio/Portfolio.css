@@ -1,0 +1,125 @@
+.portfolio {
+  padding: 100px 0px 80px 0px;
+  text-align: center;
+}
+
+/* .portfolio-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.portfolio-filter-item {
+  padding: 10px;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+.portfolio-filter-item:hover {
+  color: #058283;
+} */
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  /* border-radius: 5px; */
+  /* background-color: #07999a; */
+  /* color: #fff; */
+  /* transition: background-color 0.3s; */
+  background: none;
+}
+
+/* .filter-buttons .button-active {
+  box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.06);
+} */
+
+.filter-buttons button:hover {
+  color: #058283;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.portfolio-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  width: calc(33.333% - 32px);
+  overflow: hidden;
+  /* transition: transform 0.3s ease-in-out; */
+  position: relative;
+  text-align: left;
+}
+
+
+.portfolio-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.portfolio-card:hover .portfolio-image {
+  transform: scale(1.2);
+}
+
+.portfolio-content {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  z-index: 100;
+  transition: transform 0.5s ease-in-out;
+}
+
+.portfolio-card:hover .portfolio-content {
+  transform: translateY(-15px);
+}
+
+.portfolio-title {
+  font-size: 1.25rem;
+  /* margin-bottom: 10px; */
+  color: #fff;
+}
+
+.portfolio-description {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0px 0px 5px !important;
+}
+
+.portfolio .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+/* ------- media query -------*/
+
+@media only screen and (max-width: 1024px) {
+  .portfolio-card {
+    width: calc(50% - 32px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio-card {
+    width: calc(100% - 32px);
+  }
+}
